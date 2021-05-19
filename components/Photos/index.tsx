@@ -36,7 +36,7 @@ const Photos = ({ id_collection }: PhotosProps) => {
               return photoArr.map((photo) => {
                 return photo.response.results.map((img) => {
                   return (
-                    <Grid item xs={4} key={img.id}>
+                    <Grid item xs={12} sm={6} lg={4} key={img.id}>
                       <Uimage
                         id={img.id}
                         urls={img.urls}
