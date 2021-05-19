@@ -1,4 +1,3 @@
-# Using Next.js with Unsplash API
 ## Configuration
 
 First, you'll need to [create an account on Unsplash](https://unsplash.com/) if you don't have one already. Once that's done, follow the steps below.
@@ -9,17 +8,11 @@ To create a new application on Unsplash, click [here](https://unsplash.com/oauth
 
 Before creating an app you'll have to accept the terms for API use:
 
-![Accept Unsplash app terms](./docs/app-terms.png)
-
 Then, fill the form with the app name and description, and click on on **Create application** to finish the creation of your app:
-
-![Form to fill app name and description](./docs/app-form.png)
 
 ### Step 2. Set up environment variables
 
 After creating the app, you should be able to see the API keys in the settings page of your app:
-
-![API Keys of Unsplash app](./docs/api-keys.png)
 
 We'll need those API keys to connect the example with your Unsplash app.
 
